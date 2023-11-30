@@ -19,5 +19,7 @@ while(contador < listaDeTeclas.length){
             listaDeTeclas.classlist.add('ativa')
         }
     }
-    
+    listaDeTeclas.onkeyup = function(){
+        listaDeTeclas.classList.remove('ativa')
+    }
 }
